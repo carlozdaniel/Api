@@ -1,24 +1,27 @@
-# README
+#  Pet Store API
+----
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ Programming language and framework 
 
-Things you may want to cover:
+  - Rails 5.2.4.4
+  - ruby 2.6.3p62 
 
-* Ruby version
+# project installation
 
-* System dependencies
+  - download Git clone project 
+  - cd api
+  - bundle install
+  - rake db:migrate 
+  - rake rswag:specs:swaggerize
+  - rails s 
 
-* Configuration
 
-* Database creation
+open your browser and enter the url:
 
-* Database initialization
+  - http://localhost:3000/api-docs/index.html
+  - http://localhost:3000/api-docs/v1/swagger.yaml
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+nombre: Carlos danile hernandez rodriguez 
+correo: a20160383@gmail.com
 
-* Deployment instructions
-
-* ...
